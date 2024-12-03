@@ -1,5 +1,4 @@
 from keep_alive import keep_alive  # Correct import to keep the bot alive via Flask
-import os
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackQueryHandler, CallbackContext, ConversationHandler
